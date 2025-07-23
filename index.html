@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Help Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f2f5fa;
+      color: #333;
+    }
+    header {
+      background: #0077ff;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #005fcb;
+      padding: 0.5rem 2rem;
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .hero {
+      background: linear-gradient(to right, #0077ff, #00c6ff);
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+      border-radius: 10px;
+    }
+    .form-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0077ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      background: #e0e0e0;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quick Help Service</h1>
+    <p>Hire Local Experts. Post Tasks. Get Help Fast.</p>
+  </header>  <nav>
+    <a href="#post">Post a Task</a>
+    <a href="#worker">Become a Worker</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero">
+    <h2>Need a Hand? We've Got You Covered!</h2>
+    <p>From electricians to cleaners — post your task, and our verified workers will get it done. You pay only after work is completed. We take a small 10% commission.</p>
+  </section>  <section id="post">
+    <h2>Post a Task</h2>
+    <div class="form-card">
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Your name" required /><label>Task Description</label>
+    <textarea placeholder="Describe what help you need" rows="4" required></textarea>
+
+    <label>Preferred Date & Time</label>
+    <input type="datetime-local" required />
+
+    <label>Location</label>
+    <input type="text" placeholder="Your city or full address" required />
+
+    <button type="submit">Submit Task</button>
+  </form>
+</div>
+
+  </section>  <section id="worker">
+    <h2>Become a Worker</h2>
+    <div class="form-card">
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Your name" required /><label>Skill / Service</label>
+    <input type="text" placeholder="e.g., Plumber, Driver" required />
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="Your phone" required />
+
+    <label>City</label>
+    <input type="text" placeholder="Where can you work?" required />
+
+    <button type="submit">Register</button>
+  </form>
+</div>
+
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+917328041820">+91 7328041820</a></p>
+    <p>Email: <a href="mailto:ajena9033@gmail.com">ajena9033@gmail.com</a></p>
+  </section>  <footer>
+    &copy; 2025 Quick Help Service — All rights reserved.
+  </footer>
+</body>
+</html>
